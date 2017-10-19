@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#f5ff494d</color>
+
+
+    <color name="lightPrimary">#BBDEFB</color>
+    <color name="icon">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="red">#ff0049</color>
+    <color name="blue">#2196F3</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+
+    <!--透明-->
+    <color name="translucent_white">#5effffff</color>
+    <color name="translucent_black">#09000000</color>
+    <color name="translucent_grey">#809E9E9E</color>
+    <color name="translucent_white_8p">#14FFFFFF</color>
+    <color name="translucent_white_16p">#29FFFFFF</color>
+    <color name="translucent_white_24p">#3DFFFFFF</color>
+
+    <!--play bar-->
+    <color name="translucent_white_96p">#F5FFFFFF</color>
+    <color name="translucent_grey_300_96p">#F5E0E0E0</color>
+    <color name="translucent_grey_900_96p">#F5212121</color>
+    <color name="translucent_grey_700_96p">#F5616161</color>
+
+
+    <!--黑白背景都可以看清的颜色-->
+    <color name="aaaaaaa">#f5497837</color>
+    <color name="bbbbbbb">#f5c149ff</color>
+    <color name="ccccccc">#f5ff494d</color>
+
+    <color name="ddddddd">#f500bb12</color>
+    <color name="eeeeeee">#f5ec7500</color>
+    <color name="fffffff">#f5ec0000</color>
+
+</resources>

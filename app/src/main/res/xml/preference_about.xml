@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/app_name">
+        <Preference
+            android:key="version"
+            android:summary="1.0"
+            android:title="当前版本" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="关于我">
+        <Preference
+            android:key="github"
+            android:summary="@string/about_github"
+            android:title="Github" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="版权">
+        <Preference
+            android:summary="百度音乐HD"
+            android:title="在线音乐" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

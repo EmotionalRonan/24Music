@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:elevation="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/iv_cover"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/default_cover" />
+
+                        </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_music_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="1.加载中…"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_music_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="2.加载中…"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_music_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="3.加载中…"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                  </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        <View
+            android:id="@+id/v_divider"
+            style="@style/AppTheme.Divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="110dp" />
+
+    </android.support.v7.widget.CardView>
+</FrameLayout>
